@@ -63,3 +63,21 @@ for (let i of inputs) {
   strings[i] = telephoneWords(i);
   console.log(i, '->', strings[i]);
 }
+
+
+
+// Check if words are real english words
+// var fs = require('fs');
+// var dictionary = fs.readFileSync('/usr/share/dict/words').toString('utf-8');
+// var wordList = dictionary.split('\n');
+
+// words = {};
+// for (let digitString in strings) {
+//   words[digitString] = [];
+//   for (gibberish in strings[digitString]) {
+//     if (wordList.includes(gibberish)) {
+//       words[digitString].push(gibberish);
+//     }
+//   }
+// }
+// console.log(words);
