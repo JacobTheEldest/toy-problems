@@ -22,8 +22,8 @@ var rockPaperScissors = (rounds) => {
 
 
 
-inputs = [0, 1, 2, 3]//, 6, 12, 22, -1, -10];
+inputs = [0, 1, 2, 3, 6, 12, 22, -1, -10];
 
-for (i of inputs) {
+for (let i of inputs) {
   console.log(i, '->', rockPaperScissors(i));
 }
